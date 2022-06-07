@@ -1,3 +1,6 @@
 #+title: Casp
 
 https://en.wikipedia.org/wiki/S-Adenosyl_methionine#/media/File:S-adenosyl_methionine.png
+
+
+!./gnina -r rec.pdb -l lig.pdb --autobox_ligand lig.pdb -o docked.sdf --seed 0 --flexdist_ligand lig.pdb --flexdist 3.5 --out_flex out_flex.pdb
